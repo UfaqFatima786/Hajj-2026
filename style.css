@@ -50,7 +50,7 @@ body {
     border: 5px solid #070707;
 }
 
-.img-fluid:hover {
+.img-kaaba:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     transform: scale(1.05);
     cursor: pointer;
@@ -72,15 +72,16 @@ body {
     cursor: pointer;
 }
 
-.heading3 {
+.heading1 {
+    text-align: center;
     font-size: 48px;
     font-weight: 700;
-    color: #fa00c4;
+    color: #000000;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-style: italic;
 }
 
-.heading3:hover {
+.heading1:hover {
     font-size: 55px;
     font-weight: 700;
     color: #000000;
@@ -93,10 +94,51 @@ body {
 
 }
 
-.para-livestock {
-    font-size: 18px;
+.hajj-para {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
     font-style: italic;
     line-height: 1.6;
-    color: #ffffff;
+    color: #000000;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.about-section{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+}
+.img-kaaba-about {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    width: 550px;
+    border-radius: 50%;
+    border: 5px solid #070707;
+}
+
+.img-kaaba-about:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.9s;
+    cursor: pointer;
+    animation-name: __flash;
+    animation: slideFade 0.5s ease forwards;
+}
+.button-hajj {
+   background-color: #f8f675;
+    border-radius: 15px;
+    color: #000000;
+    border: 2px solid #574a04;
+}
+
+.button-hajj:hover {
+    background-color: #fff237;
+    color: #000000;
+    border: 2px solid #574a04;
+}
+
+.button-hajj:active {
+    background-color: #6b0080;
+    transform: scale(0.98);
 }
