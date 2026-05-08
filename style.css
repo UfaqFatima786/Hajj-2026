@@ -184,7 +184,29 @@ body {
     transform: scale(0.98);
 }
 
+.hajj-cards {
+    background-color: #c2b545;
+    border-radius: 20px;
+}
 
+.hajj-col {
+    background-color: #C8A24D;
+    border-radius: 20px;
+}
+
+.hajj-card {
+    background-color: #C8A24D;
+    border-radius: 10px;
+    border: #88873d solid 2px;
+}
+.heading-3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-style: italic;
+}
 
 .footer {
     background-color: #f7ec8a;
