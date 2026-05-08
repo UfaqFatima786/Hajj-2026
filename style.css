@@ -183,3 +183,18 @@ body {
     background-color: #806d00;
     transform: scale(0.98);
 }
+
+
+
+.footer {
+    background-color: #f7ec8a;
+    color: #000000;
+}
+
+.footer-row {
+    background-color: #f7ec8a;
+    color: #000000;
+    border-radius: 10px;
+    border: #faf600 solid 2px;
+
+}
