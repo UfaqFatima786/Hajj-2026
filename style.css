@@ -199,6 +199,9 @@ body {
     border-radius: 10px;
     border: #88873d solid 2px;
 }
+.card-img-top{
+height: 300px;
+}
 .card-text{
     text-align: center;
 }
