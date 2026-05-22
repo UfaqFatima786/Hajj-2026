@@ -183,8 +183,8 @@ body {
 }
 
 .hajj-cards {
-background-color: #dfc46d;   
- border-radius: 20px;
+    background-color: #dfc46d;
+    border-radius: 20px;
 }
 
 /* 
@@ -197,6 +197,17 @@ background-color: #dfc46d;
     background: linear-gradient(135deg, #F8F9FA, #C8A24D, #fff455);
     border-radius: 10px;
     border: #88873d solid 2px;
+}
+
+.hajj-card:hover {
+    background: linear-gradient(135deg, #F8F9FA, #C8A24D, #fff455);
+    border-radius: 10px;
+    border: #88873d solid 2px;
+    transition: 0.9s;
+    animation-name: __flash;
+    animation: slideFade 0.5s ease forwards;
+    box-shadow: 0 0 15px #252200;
+    cursor: pointer;
 }
 
 .card-img-top {
@@ -561,6 +572,37 @@ background-color: #dfc46d;
     letter-spacing: 1px;
 }
 
+
+.img-kaaba,
+.img-kaaba-about {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    width: 550px;
+    border-radius: 50%;
+    border: 5px solid #070707;
+    transition: 0.9s;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.img-kaaba:hover,
+.img-kaaba-about:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    cursor: pointer;
+    animation: slideFade 0.5s ease forwards;
+}
+
+@media (max-width: 992px) {
+
+    .img-kaaba,
+    .img-kaaba-about {
+        width: 420px;
+        height: 420px;
+    }
+
+}
+
 @media(max-width:768px) {
     .timeline::after {
         display: none;
@@ -604,6 +646,37 @@ background-color: #dfc46d;
 
     .quote-text {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .img-kaaba,
+    .img-kaaba-about {
+        width: 320px;
+        height: 320px;
+        border-width: 4px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .img-kaaba,
+    .img-kaaba-about {
+        width: 250px;
+        height: 250px;
+        border-width: 3px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .img-kaaba,
+    .img-kaaba-about {
+        width: 200px;
+        height: 200px;
     }
 
 }
